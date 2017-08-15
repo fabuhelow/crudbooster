@@ -2,66 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9568f838-1f24-4cc5-be32-48f521a0350b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/alt/AdminLTE-select2.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/js/adminlte.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/avatar.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/avatar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/avatar04.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/avatar04.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/avatar2.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/avatar2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/avatar3.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/avatar3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/avatar5.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/avatar5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/boxed-bg.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/boxed-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/american-express.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/american-express.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/cirrus.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/cirrus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/mastercard.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/mastercard.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/mestro.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/mestro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/paypal.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/paypal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/paypal2.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/paypal2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/visa.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/credit/visa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/icons.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/photo1.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/photo1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/photo2.png" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/img/photo2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blade.xml" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/crudbooster.iml" afterPath="$PROJECT_DIR$/.idea/crudbooster.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/AdminLTE.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/AdminLTE.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/AdminLTE.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/AdminLTE.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/_all-skins.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/_all-skins.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/_all-skins.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/_all-skins.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-black-light.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-black-light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-black-light.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-black-light.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-black.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-black.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-black.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-black.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-blue-light.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-blue-light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-blue-light.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-blue-light.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-blue.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-blue.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-blue.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-green-light.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-green-light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-green-light.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-green-light.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-green.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-green.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-green.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-green.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-purple-light.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-purple-light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-purple-light.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-purple-light.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-purple.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-purple.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-purple.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-purple.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-red-light.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-red-light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-red-light.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-red-light.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-red.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-red.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-red.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-red.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-yellow-light.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-yellow-light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-yellow-light.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-yellow-light.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-yellow.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-yellow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-yellow.min.css" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/css/skins/skin-yellow.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/js/demo.js" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/js/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/js/pages/dashboard.js" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/js/pages/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/js/pages/dashboard2.js" afterPath="$PROJECT_DIR$/src/assets/assets/adminlte/dist/js/pages/dashboard2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/CBController.php" afterPath="$PROJECT_DIR$/src/controllers/CBController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/admin_template.blade.php" afterPath="$PROJECT_DIR$/src/views/admin_template.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/admin_template_plugins.blade.php" afterPath="$PROJECT_DIR$/src/views/admin_template_plugins.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/default/type_components/select2/component_detail.blade.php" afterPath="$PROJECT_DIR$/src/views/default/type_components/select2/component_detail.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/header.blade.php" afterPath="$PROJECT_DIR$/src/views/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/sidebar.blade.php" afterPath="$PROJECT_DIR$/src/views/sidebar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/default/type_components/select2/component.blade.php" afterPath="$PROJECT_DIR$/src/views/default/type_components/select2/component.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,36 +18,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin_template_plugins.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/admin_template_plugins.blade.php">
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+            <state relative-caret-position="2445">
+              <caret line="163" column="60" lean-forward="false" selection-start-line="163" selection-start-column="60" selection-end-line="163" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menus_management.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/menus_management.blade.php">
+      <file leaf-file-name="CRUDBoosterServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CRUDBoosterServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2924">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1502140411000" expanded="true" signature="1897:1911" ph="..." />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/header.blade.php">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="163" column="60" lean-forward="false" selection-start-line="163" selection-start-column="60" selection-end-line="163" selection-end-column="60" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,7 +51,7 @@
       <file leaf-file-name="panelcustom.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/statistic_builder/components/panelcustom.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -123,7 +61,7 @@
       <file leaf-file-name="CBController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/CBController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
+            <state relative-caret-position="3375">
               <caret line="240" column="40" lean-forward="false" selection-start-line="240" selection-start-column="40" selection-end-line="240" selection-end-column="40" />
               <folding>
                 <marker date="1502792180000" expanded="true" signature="18817:18833" ph="..." />
@@ -132,21 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="component.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/default/type_components/select2/component.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="181" column="52" lean-forward="false" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="52" />
+            <state relative-caret-position="176">
+              <caret line="163" column="28" lean-forward="false" selection-start-line="163" selection-start-column="28" selection-end-line="166" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component_detail.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/views/default/type_components/select2/component_detail.blade.php">
+      <file leaf-file-name="CrudboosterInstallationCommand.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/commands/CrudboosterInstallationCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,28 +93,8 @@
       <file leaf-file-name="admin_template.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/admin_template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="915">
               <caret line="61" column="33" lean-forward="false" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crudbooster.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/configs/crudbooster.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/sidebar.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -215,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/views/header.blade.php" />
         <option value="$PROJECT_DIR$/src/controllers/CBController.php" />
         <option value="$PROJECT_DIR$/src/views/default/type_components/select2/component_detail.blade.php" />
+        <option value="$PROJECT_DIR$/src/views/default/type_components/select2/component.blade.php" />
       </list>
     </option>
   </component>
@@ -245,8 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,234 +190,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="type_components" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="type_components" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="select2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crudbooster" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -544,6 +237,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -579,27 +278,27 @@
       <updated>1502140446465</updated>
       <workItem from="1502140448933" duration="2122000" />
       <workItem from="1502545051982" duration="363000" />
-      <workItem from="1502736555597" duration="5666000" />
+      <workItem from="1502736555597" duration="6044000" />
+      <workItem from="1502793703985" duration="1085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8151000" />
+    <option name="totallyTimeSpent" value="9614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -607,6 +306,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -622,6 +322,90 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/views/admin_template_plugins.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/menus_management.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502140411000" expanded="true" signature="1897:1911" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2445">
+          <caret line="163" column="60" lean-forward="false" selection-start-line="163" selection-start-column="60" selection-end-line="163" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/statistic_builder/components/panelcustom.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/CBController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3375">
+          <caret line="240" column="40" lean-forward="false" selection-start-line="240" selection-start-column="40" selection-end-line="240" selection-end-column="40" />
+          <folding>
+            <marker date="1502792180000" expanded="true" signature="18817:18833" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/default/type_components/select2/component.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2715">
+          <caret line="181" column="52" lean-forward="false" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/default/type_components/select2/component_detail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/admin_template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="33" lean-forward="false" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/configs/crudbooster.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -658,23 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CRUDBoosterServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-645">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5279">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-974">
           <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="395" column="53" lean-forward="false" selection-start-line="395" selection-start-column="53" selection-end-line="395" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +502,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/admin_template_plugins.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="210">
           <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
           <folding />
         </state>
@@ -747,7 +510,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/menus_management.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2924">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1502140411000" expanded="true" signature="1897:1911" ph="..." />
@@ -757,23 +520,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="1650">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/configs/crudbooster.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        <state relative-caret-position="495">
+          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/admin_template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="915">
           <caret line="61" column="33" lean-forward="false" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="33" />
           <folding />
         </state>
@@ -781,17 +544,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
+        <state relative-caret-position="2445">
           <caret line="163" column="60" lean-forward="false" selection-start-line="163" selection-start-column="60" selection-end-line="163" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/statistic_builder/components/panelcustom.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -799,7 +560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/CBController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
+        <state relative-caret-position="3375">
           <caret line="240" column="40" lean-forward="false" selection-start-line="240" selection-start-column="40" selection-end-line="240" selection-end-column="40" />
           <folding>
             <marker date="1502792180000" expanded="true" signature="18817:18833" ph="..." />
@@ -807,18 +568,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/default/type_components/select2/component.blade.php">
+    <entry file="file://$PROJECT_DIR$/src/commands/CrudboosterInstallationCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="181" column="52" lean-forward="false" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/CrudboosterUpdateCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/default/type_components/select2/component_detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="285">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CRUDBoosterServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/default/type_components/select2/component.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="163" column="28" lean-forward="false" selection-start-line="163" selection-start-column="28" selection-end-line="166" selection-end-column="76" />
           <folding />
         </state>
       </provider>
