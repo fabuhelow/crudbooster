@@ -156,11 +156,15 @@
 							}
 							$result = $result->orderby($select_title,'asc')->get();
 
+                            $foreignKey = $form['fk_1']?$form['fk_1']:CRUDBooster::getForeignKey($table,$form['relationship_table']);
+                            $foreignKey2 = $form['fk_2']?$form['fk_2']:CRUDBooster::getForeignKey($select_table,$form['relationship_table']);
+                            $value = DB::table($form['relationship_table'])->where($foreignKey,$id);
+                            $value = $value->pluck($foreignKey2)->toArray();
 
-							$foreignKey = CRUDBooster::getForeignKey($table,$form['relationship_table']);	
-							$foreignKey2 = CRUDBooster::getForeignKey($select_table,$form['relationship_table']);																																
-							$value = DB::table($form['relationship_table'])->where($foreignKey,$id);										
-							$value = $value->pluck($foreignKey2)->toArray();
+//							$foreignKey = CRUDBooster::getForeignKey($table,$form['relationship_table']);
+//							$foreignKey2 = CRUDBooster::getForeignKey($select_table,$form['relationship_table']);
+//							$value = DB::table($form['relationship_table'])->where($foreignKey,$id);
+//							$value = $value->pluck($foreignKey2)->toArray();
 
 							foreach($result as $r) {
 								$option_label = $r->{$select_title};
