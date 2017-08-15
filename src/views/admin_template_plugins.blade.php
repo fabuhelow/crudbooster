@@ -12,7 +12,7 @@
 	<!-- Bootstrap 3.3.2 JS -->
 	<script src="{{ asset ('vendor/crudbooster/assets/adminlte/bootstrap/js/bootstrap.min.js') }}" type="text/javascript"></script>
 	<!-- AdminLTE App -->
-	<script src="{{ asset ('vendor/crudbooster/assets/adminlte/dist/js/app.js') }}" type="text/javascript"></script>
+	<script src="{{ asset ('vendor/crudbooster/assets/adminlte/dist/js/adminlte.js') }}" type="text/javascript"></script>
 	
 	<!--BOOTSTRAP DATEPICKER-->	
 	<script src="{{ asset ('vendor/crudbooster/assets/adminlte/plugins/datepicker/bootstrap-datepicker.js') }}"></script>

@@ -238,6 +238,7 @@ class CBController extends Controller {
 				$table = $field_array[0];
 			}
 
+            $fields = $coltab['fields'];
 			if($join) {
 
 				$join_exp     = explode(',', $join);
@@ -254,6 +255,23 @@ class CBController extends Controller {
 				$join_table_temp[] = $join_table;
 
 				$result->leftjoin($join_table.' as '.$join_alias,$join_alias.(($join_id)? '.'.$join_id:'.'.$joinTablePK),'=',DB::raw($table.'.'.$field. (($join_where) ? ' AND '.$join_where.' ':'') ) );
+                if($fields)
+                {
+                    array_walk($fields, function(&$value, $key) use($join_alias) { $value = $join_alias.".".$value.",' '"; });
+                    $concat = 'CONCAT('.implode(",",$fields).')';
+                    $format = str_replace('&#039;', "'", $concat);
+                    $result->addselect(DB::raw($format.' as '.$join_alias.'_'.$join_column));
+                }
+                else {
+                    $result->addselect($join_alias . '.' . $join_column . ' as ' . $join_alias . '_' . $join_column);
+                    $join_table_columns = CRUDBooster::getTableColumns($join_table);
+                    if($join_table_columns) {
+                        foreach($join_table_columns as $jtc) {
+                            $result->addselect($join_alias.'.'.$jtc.' as '.$join_alias.'_'.$jtc);
+
+                        }
+                    }
+                }
 				$result->addselect($join_alias.'.'.$join_column.' as '.$join_alias.'_'.$join_column);
 
 				$join_table_columns = CRUDBooster::getTableColumns($join_table);
