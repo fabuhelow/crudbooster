@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b495a0ff-3003-4001-b92e-566c1b73333b" name="crudbooster" url="http://198.199.124.131">
+        <fileTransfer host="198.199.124.131" port="22" privateKey="$PROJECT_DIR$/../private_key" rootFolder="/var/www/html/dashboard/vendor/crocodicstudio/crudbooster" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
