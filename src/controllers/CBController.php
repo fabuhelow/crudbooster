@@ -1207,7 +1207,7 @@ class CBController extends Controller {
 			CRUDBooster::insertLog(trans("crudbooster.log_try_add",['name'=>$row->{$this->title_field},'module'=>CRUDBooster::getCurrentModule()->name]));
 			CRUDBooster::redirect(CRUDBooster::adminPath(),trans('crudbooster.denied_access'));
 		}
-
+        // PAT
 		$this->validation($id);
 		$this->input_assignment($id);				
 
@@ -1232,9 +1232,14 @@ class CBController extends Controller {
 				if($ro['relationship_table']) {
 					$datatable = explode(",",$ro['datatable'])[0];					
 					
-					$foreignKey2 = CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
-					$foreignKey = CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
-					DB::table($ro['relationship_table'])->where($foreignKey,$id)->delete();
+//					$foreignKey2 = CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
+//					$foreignKey = CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
+
+                    $datatable = explode(",",$ro['datatable'])[0];
+                    $foreignKey2 = isset($ro['fk_2'])?$ro['fk_2']: CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
+                    $foreignKey = isset($ro['fk_1'])?$ro['fk_1']:CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
+
+                    DB::table($ro['relationship_table'])->where($foreignKey,$id)->delete();
 
 					if($inputdata) {
 						foreach($inputdata as $input_id) {
@@ -1254,19 +1259,23 @@ class CBController extends Controller {
 
 			if($ro['type'] == 'select2') {
 				if($ro['relationship_table']) {
-					$datatable = explode(",",$ro['datatable'])[0];					
-					
-					$foreignKey2 = CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
-					$foreignKey = CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
-					DB::table($ro['relationship_table'])->where($foreignKey,$id)->delete();
+					$datatable = explode(",",$ro['datatable'])[0];
+//                  $foreignKey2 = CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
+//					$foreignKey = CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
+                    $foreignKey2 = isset($ro['fk_2'])?$ro['fk_2']: CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
+                    $foreignKey = isset($ro['fk_1'])?$ro['fk_1']:CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
 
+                    DB::table($ro['relationship_table'])->where($foreignKey,$id)->delete();
+                    $date = date('Y-m-d H:i:s');
 					if($inputdata) {
 						foreach($inputdata as $input_id) {
 							$relationship_table_pk = CB::pk($ro['relationship_table']);
 							DB::table($ro['relationship_table'])->insert([
 								$relationship_table_pk=>CRUDBooster::newId($ro['relationship_table']),
 								$foreignKey=>$id,
-								$foreignKey2=>$input_id
+								$foreignKey2=>$input_id,
+                                "updated_at" => $date,
+                                "created_at" => $date
 								]);
 						}
 					}

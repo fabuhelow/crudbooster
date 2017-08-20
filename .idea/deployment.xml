@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="crudbooster">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Laravel">
     <serverData>
+      <paths name="Laravel">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="crudbooster">
         <serverdata>
           <mappings>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="b495a0ff-3003-4001-b92e-566c1b73333b" name="crudbooster" url="http://198.199.124.131">
-        <fileTransfer host="198.199.124.131" port="22" privateKey="$PROJECT_DIR$/../private_key" rootFolder="/var/www/html/dashboard/vendor/crocodicstudio/crudbooster" accessType="SFTP" keyPair="true">
+      <webServer id="20c7b6f8-79da-425a-a080-0c4a78186121" name="Laravel" url="http://bilforon.com">
+        <fileTransfer host="bilforon.com" port="22" privateKey="$PROJECT_DIR$/../private_key" rootFolder="/usr/share/nginx/html/administrator/vendor/crocodicstudio/crudbooster" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
