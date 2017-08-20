@@ -11,16 +11,25 @@
 
 
     <!-- new THEME -->
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet" type="text/css" />
 
-    <!-- Bootstrap 3.3.2 -->
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet" type="text/css" />
-    <!-- Font Awesome Icons -->
-    <link href="{{asset("vendor/crudbooster/assets/adminlte/font-awesome/css")}}/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Ionicons -->
-    <link href="{{asset("vendor/crudbooster/ionic/css/ionicons.min.css")}}" rel="stylesheet" type="text/css" />
-    <!-- Theme style -->
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte/dist/css/AdminLTE.min.css")}}" rel="stylesheet" type="text/css" />    
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte/dist/css/skins/_all-skins.min.css")}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/dist/css/AdminLTE.min.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/dist/css/skins/_all-skins.min.css") }}" rel="stylesheet" type="text/css" />
+
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/iCheck/flat/blue.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/morris/morris.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/jvectormap/jquery-jvectormap-1.2.2.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/datepicker/datepicker3.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/daterangepicker/daterangepicker.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/select2/select2.min.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/datatables/dataTables.bootstrap.css") }}" rel="stylesheet" type="text/css" />
+    <link rel='stylesheet' href='{{ asset("vendor/crudbooster/assets/lightbox/dist/css/lightbox.css") }}'/>
+    <link rel="stylesheet" type="text/css" href="{{asset('vendor/crudbooster/assets/sweetalert/dist/sweetalert.css')}}">
 
     <!-- support rtl-->
     @if (App::getLocale() == 'ar')
@@ -59,7 +68,16 @@
 
     @stack('head')
 </head>
-<body class="skin-blue" classx="@php echo (Session::get('theme_color'))?:'skin-blue'; echo ' '; echo config('crudbooster.ADMIN_LAYOUT'); @endphp">
+
+
+
+<body class="skin-blue">
+
+
+
+</body>
+
+<body class="hold-transition skin-blue sidebar-mini" classx="@php echo (Session::get('theme_color'))?:'skin-blue'; echo ' '; echo config('crudbooster.ADMIN_LAYOUT'); @endphp">
 <div id='app' class="wrapper">    
 
     <!-- Header -->
