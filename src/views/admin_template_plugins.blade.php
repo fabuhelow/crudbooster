@@ -30,6 +30,8 @@
 	<script src="{{asset('vendor/crudbooster/assets/sweetalert/dist/sweetalert.min.js')}}"></script>
 
 	<script src="{{ asset ('vendor/crudbooster/assets/adminlte_4/dist/js/app.min.js') }}"></script>
+	<script src="{{ asset ('vendor/crudbooster/assets/adminlte_4/dist/js/demo.js') }}"></script>
+
 
 	<script>			
 		var ASSET_URL           = "{{asset('/')}}";
