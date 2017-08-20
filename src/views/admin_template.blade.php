@@ -13,9 +13,9 @@
     <!-- new THEME -->
     <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet" type="text/css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/font-awesome/css/font-awesome.css") }}">
 
     <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/dist/css/AdminLTE.min.css") }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/dist/css/skins/_all-skins.min.css") }}" rel="stylesheet" type="text/css" />
@@ -65,17 +65,10 @@
         }
         .form-group > label:first-child {display: block}        
     </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
     @stack('head')
 </head>
-
-
-
-<body class="skin-blue">
-
-
-
-</body>
 
 <body class="hold-transition skin-blue sidebar-mini" classx="@php echo (Session::get('theme_color'))?:'skin-blue'; echo ' '; echo config('crudbooster.ADMIN_LAYOUT'); @endphp">
 <div id='app' class="wrapper">    
