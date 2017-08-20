@@ -11,23 +11,23 @@
 
 
     <!-- new THEME -->
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/plugins/font-awesome/css/font-awesome.css") }}">
 
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/font-awesome/css/font-awesome.css") }}">
 
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/dist/css/AdminLTE.min.css") }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/dist/css/skins/_all-skins.min.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/dist/css/AdminLTE.min.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/dist/css/skins/_all-skins.min.css") }}" rel="stylesheet" type="text/css" />
 
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/iCheck/flat/blue.css") }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/morris/morris.css") }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/jvectormap/jquery-jvectormap-1.2.2.css") }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/datepicker/datepicker3.css") }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/daterangepicker/daterangepicker.css") }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/select2/select2.min.css") }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css") }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset("vendor/crudbooster/assets/adminlte_4/plugins/datatables/dataTables.bootstrap.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/plugins/iCheck/flat/blue.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/plugins/morris/morris.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/plugins/jvectormap/jquery-jvectormap-1.2.2.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/plugins/datepicker/datepicker3.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/plugins/daterangepicker/daterangepicker.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/plugins/select2/select2.min.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("vendor/crudbooster/assets/AdminLTE-2.4.0/plugins/datatables/dataTables.bootstrap.css") }}" rel="stylesheet" type="text/css" />
     <link rel='stylesheet' href='{{ asset("vendor/crudbooster/assets/lightbox/dist/css/lightbox.css") }}'/>
     <link rel="stylesheet" type="text/css" href="{{asset('vendor/crudbooster/assets/sweetalert/dist/sweetalert.css')}}">
 
@@ -38,6 +38,7 @@
     @endif
 
     <link rel='stylesheet' href='{{asset("vendor/crudbooster/assets/css/main.css").'?r='.time()}}'/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
     <!-- load css -->
     <style type="text/css">
@@ -50,7 +51,7 @@
             <link href="{{$css}}" rel="stylesheet" type="text/css" />
         @endforeach
     @endif
-    
+
     <style type="text/css">
         .dropdown-menu-action {left:-130%;}
         .btn-group-action .btn-action {cursor: default}
@@ -58,14 +59,13 @@
         .sub-module-tab li {background: #F9F9F9;cursor:pointer;}
         .sub-module-tab li.active {background: #ffffff;box-shadow: 0px -5px 10px #cccccc}
         .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {border:none;}
-        .nav-tabs>li>a {border:none;}                
+        .nav-tabs>li>a {border:none;}
         .breadcrumb {
             margin:0 0 0 0;
             padding:0 0 0 0;
         }
-        .form-group > label:first-child {display: block}        
+        .form-group > label:first-child {display: block}
     </style>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
     @stack('head')
 </head>
