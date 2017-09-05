@@ -104,7 +104,7 @@
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <img src="{{ CRUDBooster::myPhoto() }}" class="user-image" alt="User Image">
-                        <span class="hidden-xs">Alexander Pierce</span>
+                        <span class="hidden-xs">{{ CRUDBooster::myName() }}</span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
@@ -112,12 +112,13 @@
                             <img src="{{ CRUDBooster::myPhoto() }}" class="img-circle" alt="User Image">
 
                             <p>
-                                {{ CRUDBooster::myName() }} - {{ CRUDBooster::myPrivilegeName() }}
-                                <small>Member since Nov. 2012</small>
+                                {{ CRUDBooster::myName() }} <br>
+                                <small>{{ CRUDBooster::myPrivilegeName() }}</small>
+                                <small>{{ date('y-m-d') }}</small>
                             </p>
                         </li>
                         <!-- Menu Body -->
-                        <li class="user-body">
+                        <li class="user-body" style="display: none;">
                             <div class="row">
                                 <div class="col-xs-4 text-center">
                                     <a href="#">Followers</a>
