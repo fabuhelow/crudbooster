@@ -239,6 +239,7 @@ class CBController extends Controller {
 			}
 
             $fields = $coltab['fields'];
+
 			if($join) {
 
 				$join_exp     = explode(',', $join);
@@ -255,12 +256,13 @@ class CBController extends Controller {
 				$join_table_temp[] = $join_table;
 
 				$result->leftjoin($join_table.' as '.$join_alias,$join_alias.(($join_id)? '.'.$join_id:'.'.$joinTablePK),'=',DB::raw($table.'.'.$field. (($join_where) ? ' AND '.$join_where.' ':'') ) );
-                if($fields)
+				if(isset($fields) && is_array($fields) &&  count($fields) >0)
                 {
+                    $col_alias = $fields[0];
                     array_walk($fields, function(&$value, $key) use($join_alias) { $value = $join_alias.".".$value.",' '"; });
                     $concat = 'CONCAT('.implode(",",$fields).')';
                     $format = str_replace('&#039;', "'", $concat);
-                    $result->addselect(DB::raw($format.' as '.$join_alias.'_'.$join_column));
+                    $result->addselect(DB::raw($format.' as '.$col_alias));
                 }
                 else {
                     $result->addselect($join_alias . '.' . $join_column . ' as ' . $join_alias . '_' . $join_column);
@@ -312,7 +314,17 @@ class CBController extends Controller {
 
 			}else{
 
-				$result->addselect($table.'.'.$field);
+                if(isset($fields) && is_array($fields) &&  count($fields) >0)
+                {
+                    $col_alias = $fields[0];
+                    array_walk($fields, function(&$value, $key) use($table) { $value = $table.".".$value.",' '"; });
+                    $concat = 'CONCAT('.implode(",",$fields).')';
+                    $format = str_replace('&#039;', "'", $concat);
+                    $result->addselect(DB::raw($format.' as '.$col_alias));
+                }
+                else
+				    $result->addselect($table.'.'.$field);
+
 				$columns_table[$index]['type_data']	 = CRUDBooster::getFieldType($table,$field);
 				$columns_table[$index]['field']      = $field;
 				$columns_table[$index]['field_raw']  = $field;
@@ -1114,17 +1126,27 @@ class CBController extends Controller {
 			if($ro['type'] == 'select2') {
 				if($ro['relationship_table']) {
 					$datatable = explode(",",$ro['datatable'])[0];
-					$foreignKey2 = CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
-					$foreignKey = CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
-					DB::table($ro['relationship_table'])->where($foreignKey,$id)->delete();
+//					$foreignKey2 = CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
+//					$foreignKey = CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
+//
+//
 
+                    $foreignKey2 = isset($ro['fk_2'])?$ro['fk_2']: CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
+                    $foreignKey = isset($ro['fk_1'])?$ro['fk_1']:CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
+
+
+					DB::table($ro['relationship_table'])->where($foreignKey,$id)->delete();
+					DB::table($ro['relationship_table'])->where($foreignKey,$id)->delete();
+                    $date = date('Y-m-d H:i:s');
 					if($inputdata) {
 						foreach($inputdata as $input_id) {
-							$relationship_table_pk = CB::pk($row['relationship_table']);
+							$relationship_table_pk = CB::pk($ro['relationship_table']);
 							DB::table($ro['relationship_table'])->insert([
 								$relationship_table_pk=>CRUDBooster::newId($ro['relationship_table']),
 								$foreignKey=>$id,
-								$foreignKey2=>$input_id
+								$foreignKey2=>$input_id,
+                                'created_at'=>$date,
+                                'updated_at'=>$date
 								]);
 						}
 					}
@@ -1183,6 +1205,7 @@ class CBController extends Controller {
 	}
 
 	public function getEdit($id){
+
 		$this->cbLoader();
 		$row             = DB::table($this->table)->where($this->primary_key,$id)->first();
 
@@ -1239,6 +1262,7 @@ class CBController extends Controller {
                     $foreignKey2 = isset($ro['fk_2'])?$ro['fk_2']: CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
                     $foreignKey = isset($ro['fk_1'])?$ro['fk_1']:CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
 
+
                     DB::table($ro['relationship_table'])->where($foreignKey,$id)->delete();
 
 					if($inputdata) {
@@ -1264,7 +1288,6 @@ class CBController extends Controller {
 //					$foreignKey = CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
                     $foreignKey2 = isset($ro['fk_2'])?$ro['fk_2']: CRUDBooster::getForeignKey($datatable,$ro['relationship_table']);
                     $foreignKey = isset($ro['fk_1'])?$ro['fk_1']:CRUDBooster::getForeignKey($this->table,$ro['relationship_table']);
-
                     DB::table($ro['relationship_table'])->where($foreignKey,$id)->delete();
                     $date = date('Y-m-d H:i:s');
 					if($inputdata) {

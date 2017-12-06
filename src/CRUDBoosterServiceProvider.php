@@ -96,7 +96,7 @@ class CRUDBoosterServiceProvider extends ServiceProvider
         $loader->alias('CB', 'crocodicstudio\crudbooster\helpers\CB');
     }
 
-
+    
     private function registerCrudboosterCommand()
     {
         $this->app->singleton('crudboosterinstall',function() {

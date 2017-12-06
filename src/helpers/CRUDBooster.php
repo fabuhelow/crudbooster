@@ -222,6 +222,7 @@ class CRUDBooster  {
 		  	->where('is_active',1)		  	
 		  	->first();		  	
 
+
 		  	switch ($menu->type) {
 	  			case 'Route':
 	  				$url = route($menu->path);

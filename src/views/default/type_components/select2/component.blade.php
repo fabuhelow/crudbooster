@@ -148,13 +148,33 @@
 					@if($form['relationship_table'])
 						<?php 
 							$select_table = explode(',',$form['datatable'])[0];
-							$select_title = explode(',',$form['datatable'])[1];
-							$select_where = $form['datatable_where'];
-							$result = DB::table($select_table)->select('id',$select_title);
+							$orderByKey = explode(',',$form['datatable'])[1];
+							$select_title = explode(',',$form['datatable']);
+							$multiSelectKeys = false;
+							if(count($select_title)==2)
+                                $select_title = $select_title[1];
+							else
+							{
+                                $multiSelectKeys = true;
+                                array_shift($select_title);
+                                $updatedArr = array();
+                                foreach ($select_title as $k){
+                                    $updatedArr[] = $k;
+                                    $updatedArr[] = "' '";
+								}
+                                $concat = 'CONCAT('.implode(",",$updatedArr).')';
+								$select_title = str_replace('&#039;', "'", $concat);
+							}
+                            $select_where = $form['datatable_where'];
+							if(!$multiSelectKeys)
+								$result = DB::table($select_table)->select('id',$select_title);
+							else{
+                                $result = DB::table($select_table)->select('id',DB::raw($select_title));
+                            }
 							if($select_where) {
 								$result->whereraw($select_where);
 							}
-							$result = $result->orderby($select_title,'asc')->get();
+							$result = $multiSelectKeys?$result->get():$result->orderby($select_title,'asc')->get();
 
                             $foreignKey = $form['fk_1']?$form['fk_1']:CRUDBooster::getForeignKey($table,$form['relationship_table']);
                             $foreignKey2 = $form['fk_2']?$form['fk_2']:CRUDBooster::getForeignKey($select_table,$form['relationship_table']);

@@ -138,6 +138,7 @@
                           @endif
                           
                               @foreach($hc as $h)
+                                <!-- Check if it is datetime column -->
                                 <td>{!! $h !!}</td>
                               @endforeach
                           </tr>
