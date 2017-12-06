@@ -72,30 +72,40 @@ $(function() {
                 singleDatePicker: true,
                 showDropdowns: true,
                 minDate: '1900-01-01',
-                format: 'YYYY-MM-DD'
+                format: 'YYYY-MM-DD HH:MM:SS'
             })
         }
 
         if ($(".datetimepicker").length > 0) {
             $(".datetimepicker").daterangepicker({
-                minDate: '2017-01-01',
-                singleDatePicker: true,
-                showDropdowns: true,
+                singleDatePicker:true,
+                minDate: new Date(),
+                showDropdowns:true,
                 timePicker: true,
-                timePicker12Hour: false,
-                timePickerIncrement: 5,
-                timePickerSeconds: true,
-                autoApply: true,
-                format: 'YYYY-MM-DD HH:mm:ss'
-            })
+                timePicker24Hour:true,
+                timePickerSeconds:true,
+                locale:{
+                    format: 'YYYY-MM-DD H:mm:ss'
+                }
+            });
+
+            // $('.datetimepicker').datetimepicker({
+            //     formatTime:'H:i',
+            //     formatDate:'Y-m-d',
+            //     timepickerScrollbar:false
+            // })
         }
 
         //Timepicker
         if ($(".timepicker").length > 0) {
-            $(".timepicker").timepicker({
-                showInputs: true,
-                showSeconds: true,
-                showMeridian: false
+            $(".timepicker").daterangepicker({
+                singleDatePicker: true,
+                datePicker: false,
+                timePicker: true,
+                timePicker24Hour:false,
+                locale:{
+                    format: 'HH:MM:ss'
+                }
             });
         }
 
@@ -130,9 +140,9 @@ $(function() {
         })
     }
 });
-    $(function() {
-      //loader_notification();
-      setInterval(function() {
-          //loader_notification();
-      },10000);
-    });	
+$(function() {
+    //loader_notification();
+    setInterval(function() {
+        //loader_notification();
+    },10000);
+});

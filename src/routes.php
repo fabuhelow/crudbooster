@@ -67,7 +67,7 @@ Route::group(['middleware'=>['web','\crocodicstudio\crudbooster\middlewares\CBBa
 
 	/* DO NOT EDIT THESE BELLOW LINES */
 	CRUDBooster::routeController('/','AdminController',$namespace='\crocodicstudio\crudbooster\controllers');	
-	CRUDBooster::routeController('api_generator','ApiCustomController',$namespace='\crocodicstudio\crudbooster\controllers');	
+	CRUDBooster::routeController('api_generator','ApiCustomController',$namespace='\crocodicstudio\crudbooster\controllers');
 	
 	try{
 
